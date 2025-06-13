@@ -1,13 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="5; url=3_login.html">
+    <!-- <meta http-equiv="refresh" content="5; url=3_login.html"> -->
     <title>Welcome</title>
     <style>
+
+        * {
+            font-family: 'Segoe UI';
+            box-sizing: border-box;
+        }
+
         body {
-            background-image: url('windows11-alt1-wallpaper.webp'); /* Caminho para a imagem de fundo */
+            height: 100vh; 
+            background-image: url("windows11-default-wallpaper-scaled.jpg");
             background-size: cover; /* Faz a imagem cobrir toda a tela */
             background-position: center; /* Centraliza a imagem */
             background-repeat: no-repeat; /* Evita repetição da imagem */
@@ -15,19 +22,31 @@
             font-family: Arial, sans-serif; /* Fonte moderna */
             text-align: center;
             padding: 20px;
+            overflow: hidden; /* Esconde a barra de rolagem */
         }
-        h1 {
-            font-size: 2.5em;
+
+        .hora {
+            font-size: 90px;
+            font-weight: 500;
+            margin: 0;
+        }
+    
+        .p {
+            font-size: 16px;
             margin-top: 20px;
         }
-        p {
-            font-size: 1.2em;
-            margin-top: 20px;
-        }
+
+        
+
+
     </style>
 </head>
 <body>
-    <h1>Bem-vindo ao sistema!</h1>
-    <p>Estamos felizes em tê-lo aqui.</p>
+
+    <div class="hora">17:00</div>
+    <div class="p">FRIDAY, June 13</div>
+
+    
+
 </body>
 </html>

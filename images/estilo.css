@@ -1,0 +1,36 @@
+body{
+    background-image: url(/images/windows11-wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-top: 180px;
+}
+
+img {
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+}
+
+.Senha{
+
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Senha {
+    color: rgba(255, 255, 255, 0.874);
+}
